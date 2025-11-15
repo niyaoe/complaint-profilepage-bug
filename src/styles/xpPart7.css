@@ -1,0 +1,54 @@
+/* =============================
+   WINDOWS XP THEME — PART 7
+   Unique class names: xp-*7
+   ============================= */
+
+/* Hero Section XP look */
+.xp-hero7 {
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.45);
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  /* XP Overlay blur style */
+  .xp-overlay7 {
+    backdrop-filter: blur(1.5px);
+  }
+  
+  /* XP Classic Title */
+  .xp-title7 {
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #000;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  /* XP Green Glossy Button */
+  .xp-btn7 {
+    background: linear-gradient(#54c754, #3ca73c);
+    border: 2px solid #2f7e2f;
+    color: white !important;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 24px;
+    padding: 10px 28px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+  }
+  
+  .xp-btn7:hover {
+    background: linear-gradient(#66df66, #4cb94c);
+    transform: translateY(-2px);
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 450px) {
+    .xp-title7 {
+      font-size: 1.7rem !important;
+    }
+  
+    .xp-btn7 {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+    }
+  }
+  

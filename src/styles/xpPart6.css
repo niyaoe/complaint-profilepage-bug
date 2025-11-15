@@ -1,0 +1,73 @@
+/* ---------------------------
+   WINDOWS XP THEME – Part6
+   --------------------------- */
+
+/* Soft blue XP background */
+.xp-faq-container {
+  background: linear-gradient(#dbe8ff, #bcd2ff);
+  border: 3px solid #3a6ea5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #6f8ec9 inset;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* XP Title Text */
+.xp-heading {
+  color: #1a3e8f;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+  letter-spacing: 1px;
+}
+
+/* Image with XP border */
+.xp-faq-image {
+  border: 3px solid #294d89;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 #8faee9;
+  max-height: 380px;
+  object-fit: cover;
+  transform: rotate(90deg);
+}
+
+/* XP Accordion Container */
+.xp-accordion {
+  background: #e8f1ff;
+  padding: 10px;
+  border: 2px solid #2a4b8d;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #7fa4e3;
+}
+
+/* Each XP Accordion item */
+.xp-accordion-item {
+  background: #f4f7ff;
+  border: 2px solid #587dc2;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 2px 2px 0 #9ab8ec;
+}
+
+/* XP Accordion Button */
+.xp-accordion-button {
+  background: linear-gradient(#ffffff, #dfeaff);
+  color: #002b70 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #2a4b8d;
+  padding: 12px;
+  box-shadow: none !important;
+}
+
+.xp-accordion-button:not(.collapsed) {
+  background: linear-gradient(#cddcff, #a8c8ff);
+  color: #001c54 !important;
+}
+
+/* XP Body */
+.xp-accordion-body {
+  background: #ffffff;
+  color: #003479;
+  padding: 15px;
+  font-size: 15px;
+  border-top: 2px solid #2a4b8d;
+}

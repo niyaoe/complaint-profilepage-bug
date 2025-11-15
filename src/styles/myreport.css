@@ -1,0 +1,75 @@
+/* 🌈 XP Background */
+.xp-bg {
+    /* background: linear-gradient(to bottom right, #3b6ea5, #1a4d8f); */
+    font-family: "Tahoma", sans-serif;
+  }
+  
+  /* 🪟 XP Cards */
+  .xp-card {
+    background: #ece9d8;
+    border: 2px solid #3c6eb3;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  }
+  
+  /* 🔵 XP Heading */
+  .xp-heading {
+    color: #0b3d91;
+    text-shadow: 1px 1px 0px #ffffff;
+  }
+  
+  /* Subtext */
+  .xp-subtext {
+    color: #6f6f6f;
+  }
+  
+  /* ✏ XP Inputs */
+  .xp-input,
+  .xp-input:focus {
+    background: #ffffff;
+    border: 2px solid #7da2ce;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Tahoma";
+    box-shadow: inset 1px 1px 2px #c8c8c8;
+  }
+  
+  .xp-input:focus {
+    border-color: #1f5ebc;
+    outline: none;
+    box-shadow: 0 0 4px rgba(32, 93, 163, 0.8);
+  }
+  
+  /* 🟦 XP Button */
+  .xp-btn {
+    background: linear-gradient(to bottom, #4a8cf0, #1e56a0);
+    border: 2px solid #0b2d6d;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  .xp-btn:hover {
+    background: linear-gradient(to bottom, #5b9dff, #1c4fa3);
+  }
+  
+  /* 🗂 XP Table */
+  .xp-table {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 3px #ccc;
+  }
+  
+  .xp-table-head {
+    background: #b8d1f3 !important;
+    color: #0b2d6d;
+    text-shadow: 1px 1px 0px #fff;
+  }
+  
+  /* 🖼 XP Photo Box */
+  .xp-photo-box {
+    background: #faf8f0;
+    border: 2px solid #3c6eb3;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 2px #d0d0d0;
+  }
+  

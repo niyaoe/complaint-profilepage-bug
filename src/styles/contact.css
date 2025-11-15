@@ -1,0 +1,65 @@
+/* 🌈 Windows XP Blue Background */
+.xp-bg {
+    /* background: linear-gradient(to bottom right, #3a6ea5, #1e4e8c); */
+    font-family: "Tahoma", sans-serif;
+  }
+  
+  /* 🪟 XP Card (Like XP Dialog Window) */
+  .xp-card {
+    background: #ece9d8;
+    border: 2px solid #3b6ea5;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  }
+  
+  /* 🔵 XP Heading */
+  .xp-heading {
+    color: #0b3d91;
+    text-shadow: 1px 1px 0px #fff;
+  }
+  
+  /* 🔹 XP Subtext */
+  .xp-subtext {
+    color: #6f6f6f;
+    font-size: 14px;
+  }
+  
+  /* ✏ XP Inputs */
+  .xp-input {
+    background: #ffffff;
+    border: 2px solid #7da2ce;
+    border-radius: 4px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    box-shadow: inset 1px 1px 2px #c8c8c8;
+  }
+  
+  .xp-input:focus {
+    border-color: #1f5ebc;
+    outline: none;
+    box-shadow: 0 0 4px rgba(33, 93, 163, 0.8);
+  }
+  
+  /* 🟦 XP Button (Classic Blue Button) */
+  .xp-btn {
+    background: linear-gradient(to bottom, #3c7dd9, #1b4f99);
+    border: 2px solid #0c2d69;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  .xp-btn:hover {
+    background: linear-gradient(to bottom, #4c8ffa, #1e5dbe);
+  }
+  
+  /* 🗺 XP Map Window */
+  .xp-map-wrapper {
+    border: 2px solid #3b6ea5;
+    border-radius: 8px;
+    background: #faf8f3;
+    padding: 6px;
+    box-shadow: inset 1px 1px 2px #d8d8d8;
+  }
+  

@@ -1,0 +1,63 @@
+/* =============================
+   WINDOWS XP THEME - HERO PAGE
+   Unique class names: xp-*
+   ============================= */
+
+/* Hero Section Overlay */
+.xp-overlay {
+    backdrop-filter: blur(1.5px);
+  }
+  
+  /* XP Hero Title */
+  .xp-hero-title {
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  /* XP Subtitle */
+  .xp-hero-subtitle {
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px #000;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  /* XP Green Button (like Windows XP Install button) */
+  .xp-btn-green {
+    background: linear-gradient(#54c754, #3ea63e);
+    border: 2px solid #2f7e2f;
+    color: white !important;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  .xp-btn-green:hover {
+    background: linear-gradient(#6ede6e, #47b947);
+    transform: translateY(-2px);
+  }
+  
+  /* XP Theme subtle glow */
+  .xp-hero {
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Mobile */
+  @media (max-width: 400px) {
+    .xp-hero-title {
+      font-size: 1.6rem;
+    }
+  
+    .xp-hero-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    .xp-btn-green {
+      font-size: 0.85rem;
+      padding: 8px 18px;
+    }
+  }
+  

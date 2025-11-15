@@ -1,0 +1,103 @@
+/* ===== Windows XP Background ===== */
+.xp-bg {
+  /* background: #1e5aa8 url("https://i.imgur.com/NwPn3Ri.png"); */
+  background-size: cover;
+}
+
+/* ===== XP Window Box ===== */
+.xp-window {
+  background: #ece9d8;
+  border: 3px solid #3a4ba5;
+  border-radius: 6px;
+  box-shadow: 0 0 12px #0008;
+}
+
+/* ===== Split Left Section ===== */
+.xp-left-border {
+  border-right: 3px solid #3b4ba5;
+}
+
+/* ===== XP Heading ===== */
+.xp-title {
+  color: #003399;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.xp-heading {
+  color: #003399;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+
+/* ===== XP Text ===== */
+.xp-text {
+  color: #222;
+  font-size: 15px;
+}
+
+/* ===== XP Labels ===== */
+.xp-label {
+  font-weight: bold;
+  color: #003399;
+}
+
+/* ===== XP Inputs ===== */
+.xp-input {
+  background: #ffffff;
+  border: 2px solid #7d7d7d;
+  border-radius: 3px;
+  padding: 8px;
+  box-shadow: inset 0 0 4px #0003;
+}
+.xp-input:focus {
+  border-color: #2b65ec;
+  outline: none;
+}
+
+/* ===== XP Button ===== */
+.xp-btn {
+  background: linear-gradient(#ffffff, #dcdcdc);
+  border: 2px solid #7d7d7d;
+  padding: 8px 18px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.xp-btn.active,
+.xp-btn:hover {
+  background: linear-gradient(#dcdcdc, #ffffff);
+  border-color: #2b65ec;
+  color: #003399;
+}
+
+/* ===== Social login small buttons ===== */
+.xp-icon-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #7d7d7d;
+  background: linear-gradient(#fff, #dcdcdc);
+  font-weight: bold;
+}
+
+/* ===== XP Small Text ===== */
+.xp-small {
+  font-size: 13px;
+  color: #444;
+}
+
+/* ===== XP Link ===== */
+.xp-link {
+  color: #003399;
+  cursor: pointer;
+  font-weight: bold;
+}
+.xp-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .xp-left-border {
+    border-right: none;
+    border-bottom: 3px solid #3b4ba5;
+  }
+}

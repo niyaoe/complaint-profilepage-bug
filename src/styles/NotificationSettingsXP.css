@@ -1,0 +1,92 @@
+/* =======================================================
+   WINDOWS XP THEME — Notification Settings
+   Unique Prefix: xp-notify-
+========================================================== */
+
+.xp-notify-card {
+    background: linear-gradient(to bottom, #dfe8ff, #c3d3f9);
+    border: 2px solid #6b8ac7;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+    font-family: "Tahoma", sans-serif;
+  }
+  
+  /* Title */
+  .xp-notify-title {
+    color: #0b2161;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 18px;
+  }
+  
+  /* Section Row */
+  .xp-notify-row {
+    padding: 12px 0;
+    border-bottom: 1px solid #9bb3e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .xp-notify-row.last {
+    border-bottom: none;
+  }
+  
+  /* XP Toggle Switch */
+  .xp-notify-switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 22px;
+  }
+  
+  .xp-notify-switch input {
+    display: none;
+  }
+  
+  .xp-notify-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #c2c2c2;
+    border: 2px solid #7f9db9;
+    border-radius: 4px;
+    transition: 0.3s;
+    box-shadow: inset 1px 1px 2px #d0d7e5;
+  }
+  
+  /* Slider Circle */
+  .xp-notify-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 18px;
+    left: 2px;
+    top: 1px;
+    background: linear-gradient(to bottom, #fff, #d7d7d7);
+    border: 1px solid #7f7f7f;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  
+  /* When Checked */
+  .xp-notify-switch input:checked + .xp-notify-slider {
+    background: #3b79e3;
+  }
+  
+  .xp-notify-switch input:checked + .xp-notify-slider:before {
+    transform: translateX(22px);
+  }
+  
+  /* XP Arrow */
+  .xp-notify-arrow {
+    font-size: 22px;
+    opacity: 0.5;
+    user-select: none;
+  }
+  

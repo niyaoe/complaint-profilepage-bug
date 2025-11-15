@@ -1,0 +1,89 @@
+/* Page BG */
+.xp-profile-wrapper {
+  background: linear-gradient(to bottom, #dfe8ff, #c3d3f9);
+  min-height: 100vh;
+  padding-top: 20px;
+  font-family: "Tahoma", sans-serif;
+}
+
+/* Profile Card */
+.xp-profile-card {
+  background: #f3f6ff;
+  border: 2px solid #6b8ac7;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+}
+
+/* Profile Photo */
+.xp-profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4c6edb;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+/* Mobile fix: smaller image */
+@media (max-width: 576px) {
+  .xp-profile-img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Name & Username */
+.xp-profile-name {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #0b2161;
+}
+
+.xp-profile-username {
+  color: #4b4b4b;
+  margin-top: -4px;
+}
+
+/* Edit Button */
+.xp-profile-btn {
+  background: linear-gradient(to bottom, #3b79e3, #1a4db3);
+  color: white;
+  border: 2px solid #0b2a6d;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* XP Tabs */
+.xp-tabs {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-bottom: 2px solid #6b8ac7;
+  padding-bottom: 4px;
+  scrollbar-width: none; 
+}
+
+.xp-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.xp-tab-link {
+  padding: 8px 20px;
+  border: 1px solid #6b8ac7;
+  margin-right: 6px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #ffffff, #d8def3);
+  color: #0b2161 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+/* Active Tab */
+.xp-tab-link.active {
+  background: #3b79e3;
+  color: white !important;
+  border-color: #0b2a6d;
+}

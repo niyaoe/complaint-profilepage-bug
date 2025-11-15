@@ -1,0 +1,139 @@
+/* ===========================
+   MAIN XP PAGE BACKGROUND
+=========================== */
+.xp-page-wrapper {
+  min-height: 100vh;
+  background: #3a6ea5; /* XP blue */
+  padding-bottom: 50px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===========================
+   COVER PHOTO + XP TITLE BAR
+=========================== */
+.xp-cover-photo {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.xp-window-bar {
+  height: 28px;
+  background: linear-gradient(#245edc, #0b3aa6);
+  color: white;
+  font-weight: bold;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #002b80;
+  font-size: 14px;
+}
+
+/* ===========================
+   PROFILE CARD
+=========================== */
+.xp-profile-card {
+  background: #ece9d8;
+  border: 2px solid #9a9a9a;
+  border-radius: 12px;
+  margin-top: -60px;
+  padding: 20px;
+  box-shadow: 3px 3px 0px #bdbdbd;
+}
+
+/* Profile picture */
+.xp-profile-pic {
+  width: 135px;
+  height: 135px;
+  border: 3px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  margin-top: -80px;
+  background: white;
+}
+
+/* Name */
+.xp-profile-name {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000080;
+}
+
+/* Username */
+.xp-profile-username {
+  color: #404040;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* XP Button */
+.xp-btn {
+  background: #ece9d8;
+  border: 2px solid #7b7b7b;
+  padding: 6px 20px;
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  box-shadow: 2px 2px 0px #b1b1b1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.xp-btn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+/* ===========================
+   XP TABS
+=========================== */
+.xp-tabs {
+  margin-top: 30px;
+  border-bottom: 2px solid #7b7b7b !important;
+}
+
+.xp-tab-link {
+  color: black !important;
+  padding: 10px 20px;
+  background: #dcd9c0;
+  border: 2px solid #7b7b7b !important;
+  border-bottom: none !important;
+  margin: 0 4px;
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+  box-shadow: inset 0 0 3px white;
+}
+
+/* Active Tab */
+.xp-tab-link.active {
+  background: #ffffff !important;
+  border-bottom: 2px solid white !important;
+  font-weight: bold;
+  color: #000080 !important;
+}
+
+/* ===========================
+    MOBILE FIXES
+=========================== */
+@media (max-width: 480px) {
+  .xp-profile-pic {
+    width: 110px;
+    height: 110px;
+  }
+
+  .xp-tab-link {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .xp-profile-name {
+    font-size: 18px;
+  }
+
+  .xp-profile-card {
+    padding: 16px;
+  }
+}

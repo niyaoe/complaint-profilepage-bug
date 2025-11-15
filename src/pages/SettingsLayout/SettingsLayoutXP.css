@@ -1,0 +1,66 @@
+/* ================================
+     WINDOWS XP SETTINGS THEME
+     Unique Prefix: xp-settings-
+   ================================ */
+
+/* Page wrapper spacing */
+.xp-settings-container {
+  margin-top: 60px;
+}
+
+/* XP Sidebar Style */
+.xp-settings-sidebar {
+  background: linear-gradient(to bottom, #dce7ff, #b7c9f1);
+  border-right: 2px solid #8aa4d4;
+  padding: 15px;
+  box-shadow: inset -2px 0 4px rgba(0,0,0,0.2);
+}
+
+/* Sidebar title (desktop only) */
+.xp-sidebar-title {
+  font-family: "Tahoma", sans-serif;
+  color: #0b2161;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+/* XP Navigation Links */
+.xp-settings-link {
+  font-family: "Tahoma", sans-serif;
+  font-size: 15px;
+  color: #0b2161 !important;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.2s ease, padding-left 0.2s ease;
+  border: 1px solid transparent;
+}
+
+/* Active Link */
+.xp-settings-link.active {
+  background: linear-gradient(to bottom, #3982e4, #1f5fc1);
+  color: white !important;
+  border: 1px solid #0b2a6d;
+  box-shadow: inset 1px 1px 2px rgba(255,255,255,0.4);
+  padding-left: 18px;
+}
+
+/* Hover effect */
+.xp-settings-link:hover {
+  background: linear-gradient(to bottom, #e5f0ff, #c7d9f8);
+  border: 1px solid #7ba2e0;
+  padding-left: 18px;
+}
+
+/* Settings List (remove default spacing) */
+.xp-settings-list li {
+  list-style: none;
+}
+
+/* Main content area */
+.xp-settings-content {
+  background: #ffffff;
+  border-left: 2px solid #8aa4d4;
+  box-shadow: inset 2px 0 4px rgba(0,0,0,0.15);
+  min-height: 100vh;
+  border-radius: 0 8px 0 0;
+  padding: 20px;
+}

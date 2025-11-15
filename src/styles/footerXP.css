@@ -1,0 +1,63 @@
+/* ================================
+   WINDOWS XP THEME FOOTER
+   Unique class names (xp-footer*)
+   ================================ */
+
+   .xp-footer {
+    background: linear-gradient(to bottom, #245edb, #1747a6);
+    color: #ffffff;
+    border-top: 3px solid #0e2d73;
+    font-family: "Tahoma", sans-serif;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .xp-footer-container {
+    position: relative;
+  }
+  
+  /* Title Section */
+  .xp-footer-title-box {
+    text-shadow: 1px 1px 0 #0e2d73;
+  }
+  
+  .xp-footer-title {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  /* Section Headings */
+  .xp-footer-heading {
+    color: #ffecb3;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 #0e2d73;
+  }
+  
+  /* Links List */
+  .xp-footer-list li {
+    margin-bottom: 6px;
+  }
+  
+  .xp-footer-link {
+    color: #e6f0ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .xp-footer-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  /* Divider */
+  .xp-footer-divider {
+    border-top: 1px solid #103a85;
+    opacity: 0.5;
+    margin-top: 10px;
+  }
+  
+  /* Copyright */
+  .xp-footer-copy {
+    color: #d6e4ff;
+    font-size: 13px;
+  }
+  

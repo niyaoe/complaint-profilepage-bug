@@ -1,0 +1,169 @@
+
+
+.prnt{
+  gap: 5px;
+}
+
+
+/* ===== Windows XP Retro Theme ===== */
+
+/* Background */
+.retro-bg {
+  background: #ece9d8;
+  /* background: linear-gradient(180deg, #7baaf7 0%, #bcd2f8 100%); */
+  font-family: "Tahoma", sans-serif;
+  color: #000;
+}
+
+/* Card Style */
+.retro-card {
+  border: 2px solid #003c74;
+  border-radius: 6px;
+  background: #ece9d8;
+  box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #c3c3c3 inset,
+              3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Header Area */
+.retro-card .card-body {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/* XP-style title bar (category) */
+.retro-badge {
+  background: linear-gradient(180deg, #0a64ad 0%, #3a95e6 100%);
+  color: #fff;
+  border: 1px solid #003c74;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: inset 1px 1px 0 #7fbfff, inset -1px -1px 0 #003c74;
+}
+
+/* User Image */
+.user-img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #7baaf7;
+}
+
+/* Image in post */
+/* XP-style image fix */
+.retro-image {
+  width: 100%;
+  max-width: 500px; /* limits image width on large screens */
+  height: auto;
+  border: 2px solid #003c74;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #c3c3c3 inset;
+  display: block;
+  margin: 0 auto; /* centers image */
+}
+ 
+
+/* XP buttons */
+.retro-action-btn {
+  background: #d4d0c8;
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  color: #000;
+  font-size: 13px;
+  padding: 3px 12px;
+  border-radius: 3px;
+  box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #808080;
+  transition: all 0.1s ease-in-out;
+}
+
+/* .retro-action-btn:hover {
+  background: #ece9d8;
+} */
+
+.retro-action-btn:active {
+  border: 2px solid #404040;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  background: #c0c0c0;
+}
+
+/* Like active state */
+.retro-liked {
+  background: linear-gradient(180deg, #0a64ad 0%, #3a95e6 100%);
+  color: white;
+  border: 2px solid #003c74;
+  box-shadow: inset 1px 1px 0 #7fbfff;
+}
+.post-btne{
+  background: linear-gradient(#e74c3c, #c0392b);
+  color: white;
+  border: 2px solid #7e1e14;
+  box-shadow: inset 1px 1px 0 #7fbfff;
+}
+
+/* Input field */
+.retro-input,
+.form-control-sm {
+  background: #fff;
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  font-size: 13px;
+  color: #000;
+  border-radius: 2px;
+  padding: 4px 8px;
+}
+
+.retro-input:focus,
+.form-control-sm:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #7baaf7;
+}
+
+/* Search & Filters Bar */
+.retro-box {
+  background: #d4d0c8;
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 4px;
+  box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #808080;
+}
+
+/* Dropdown button XP style */
+.retro-btn {
+  background: #d4d0c8;
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  font-size: 13px;
+  padding: 4px 10px;
+  color: #000;
+  box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #808080;
+}
+
+.retro-btn:hover {
+  background: #ece9d8;
+}
+
+.retro-btn:active {
+  background: #c0c0c0;
+  border: 2px solid #404040;
+}
+
+/* Comment section */
+.retro-comment {
+  background: #fff;
+  border: 1px solid #808080;
+  padding: 4px 6px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+/* Headings */
+.text-primary {
+  color: #0a64ad !important;
+}
+
+

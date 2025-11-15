@@ -1,0 +1,79 @@
+/* ================================================
+   WINDOWS XP THEME FOR ACCOUNT INFO PAGE
+   Unique Prefix: xp-account-
+================================================ */
+
+/* XP Window Card */
+.xp-account-card {
+    background: linear-gradient(to bottom, #dfe8ff, #c3d3f9);
+    border: 2px solid #6b8ac7;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+    font-family: "Tahoma", sans-serif;
+  }
+  
+  /* Title */
+  .xp-account-title {
+    color: #0b2161;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 18px;
+  }
+  
+  /* XP Inputs */
+  .xp-account-input,
+  .xp-account-select,
+  .xp-account-textarea {
+    border: 2px solid #7f9db9 !important;
+    background: #ffffff;
+    font-family: "Tahoma", sans-serif;
+    padding: 8px;
+    box-shadow: inset 1px 1px 2px #d0d7e5;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  /* XP Input Focus */
+  .xp-account-input:focus,
+  .xp-account-select:focus,
+  .xp-account-textarea:focus {
+    border-color: #3b6eea !important;
+    outline: none;
+    box-shadow: 0 0 4px #3b6eea;
+  }
+  
+  /* XP Buttons */
+  .xp-account-btn-save {
+    background: linear-gradient(to bottom, #3b89ff, #1f5fc1);
+    color: white;
+    padding: 8px 16px;
+    border: 2px solid #0b2a6d;
+    border-radius: 4px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px #7fbfff;
+  }
+  
+  .xp-account-btn-save:hover {
+    filter: brightness(1.1);
+  }
+  
+  .xp-account-btn-logout {
+    background: linear-gradient(to bottom, #ff6b6b, #c0392b);
+    color: white;
+    padding: 8px 16px;
+    border: 2px solid #7e1e14;
+    border-radius: 4px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px #ffc7c7;
+  }
+  
+  .xp-account-btn-logout:hover {
+    filter: brightness(1.1);
+  }
+  

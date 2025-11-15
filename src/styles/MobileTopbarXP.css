@@ -1,0 +1,52 @@
+/* ================================
+   WINDOWS XP MOBILE TOPBAR THEME
+   Unique Prefix: mobile-xp-
+   ================================ */
+
+/* XP Blue Taskbar */
+.mobile-xp-topbar {
+    height: 60px;
+    background: linear-gradient(to bottom, #245ed8 0%, #1a4db3 100%);
+    border-bottom: 2px solid #0b2a6d;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  }
+  
+  /* XP Title */
+  .mobile-xp-title {
+    color: white !important;
+    font-family: "Tahoma", sans-serif;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  /* XP Icon Link */
+  .mobile-xp-icon-link {
+    color: #eaf3ff !important;
+    text-decoration: none;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* XP Icon Effect */
+  .mobile-xp-icon {
+    filter: drop-shadow(1px 1px 1px #000);
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+  
+  .mobile-xp-icon-link:hover .mobile-xp-icon {
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 2px #000);
+  }
+  
+  .mobile-xp-icon-link:hover {
+    color: #ffffff !important;
+  }
+  
+  /* Example Button Style From Your Code */
+  .post-btne {
+    background: linear-gradient(#e74c3c, #c0392b);
+    color: white;
+    border: 2px solid #7e1e14;
+    box-shadow: inset 1px 1px 0 #7fbfff;
+  }
+  

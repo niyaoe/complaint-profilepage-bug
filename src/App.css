@@ -1,0 +1,16 @@
+.corosal-image{
+    height: 340px;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-image{
+    max-width: 350px;
+    max-height: 100vh;
+    object-fit: fill;
+}
+
+
+  

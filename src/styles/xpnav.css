@@ -1,0 +1,57 @@
+/* ============================
+   WINDOWS XP THEME NAVBAR
+   ============================ */
+
+   .xp-navbar {
+    background: linear-gradient(#245edc, #1a4bb8);
+    border-bottom: 2px solid #0f2a70;
+    padding: 8px 0;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  /* Brand text */
+  .xp-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  /* Login button - XP green */
+  .xp-btn-login {
+    background: linear-gradient(#54c754, #3ea63e);
+    border: 1px solid #2f7e2f;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .xp-btn-login:hover {
+    background: linear-gradient(#6ede6e, #47b947);
+  }
+  
+  /* Sign Up button - XP style Red */
+  .xp-btn-signup {
+    background: linear-gradient(#e74c3c, #c0392b);
+    border: 1px solid #7e1e14;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .xp-btn-signup:hover {
+    background: linear-gradient(#ff6b5a, #d14434);
+  }
+  
+  /* Mobile small screens */
+  @media (max-width: 400px) {
+    .xp-brand {
+      font-size: 1rem !important;
+    }
+  
+    .xp-navbar button {
+      padding: 2px 6px;
+      font-size: 0.8rem;
+    }
+  }
+  

@@ -1,0 +1,84 @@
+/* =========================================
+   WINDOWS XP THEME – PART 2 SECTION
+   Unique class names: xp-part2, xp-card, xp-icon
+   ========================================= */
+
+/* Section Background */
+.xp-part2-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Trebuchet MS", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  /* Section Heading */
+  .xp-part2-title {
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #000;
+    letter-spacing: 2px;
+  }
+  
+  /* XP Card Container */
+  .xp-card {
+    background: #f0f6ff;
+    border: 2px solid #2e5cb8;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+  }
+  
+  .xp-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* XP Card Image */
+  .xp-card-img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #2e5cb8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* XP Icon Style */
+  .xp-icon {
+    display: inline-block;
+    font-size: 1.8rem;
+    background: linear-gradient(#3f77e8, #2c59b3);
+    color: white;
+    border-radius: 50%;
+    padding: 10px 16px;
+    box-shadow: 2px 2px 0 #1f3e7a;
+    margin-bottom: 10px;
+  }
+  
+  /* XP Card Title */
+  .xp-card-title {
+    font-weight: bold;
+    color: #1a2e6d;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  /* XP Card Text */
+  .xp-card-text {
+    color: #1e3a72;
+    font-size: 0.95rem;
+    text-shadow: 0.5px 0.5px 0 #fff;
+  }
+  
+  /* Mobile Tweaks */
+  @media (max-width: 400px) {
+    .xp-part2-title {
+      font-size: 1.4rem;
+    }
+  
+    .xp-card {
+      padding: 5px;
+    }
+  }
+  
