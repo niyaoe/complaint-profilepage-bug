@@ -1,85 +1,58 @@
 /* ===========================
-   MAIN XP PAGE BACKGROUND
+   PAGE WRAPPER (XP BLUE BG)
 =========================== */
-.xp-page-wrapper {
+.xp-wrapper {
+  margin-top: 70px;
   min-height: 100vh;
-  background: #3a6ea5; /* XP blue */
-  padding-bottom: 50px;
+  /* background: #3a6ea5; */
+  padding-top: 20px;
+  padding-bottom: 40px;
   font-family: "Segoe UI", sans-serif;
 }
 
 /* ===========================
-   COVER PHOTO + XP TITLE BAR
+   INSTAGRAM-LIKE HEADER ROW
 =========================== */
-.xp-cover-photo {
-  height: 240px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.xp-window-bar {
-  height: 28px;
-  background: linear-gradient(#245edc, #0b3aa6);
-  color: white;
-  font-weight: bold;
-  padding-left: 12px;
-  display: flex;
-  align-items: center;
-  border-bottom: 2px solid #002b80;
-  font-size: 14px;
-}
-
-/* ===========================
-   PROFILE CARD
-=========================== */
-.xp-profile-card {
+.xp-profile-header {
   background: #ece9d8;
-  border: 2px solid #9a9a9a;
+  border: 2px solid #8f8f8f;
   border-radius: 12px;
-  margin-top: -60px;
   padding: 20px;
-  box-shadow: 3px 3px 0px #bdbdbd;
+  box-shadow: 3px 3px 0px #bcbcbc;
 }
 
-/* Profile picture */
-.xp-profile-pic {
-  width: 135px;
-  height: 135px;
-  border: 3px solid white;
-  border-radius: 50%;
+/* Profile photo */
+.xp-profile-photo {
+  width: 110px;
+  height: 110px;
   object-fit: cover;
-  box-shadow: 0 0 6px rgba(0,0,0,0.2);
-  margin-top: -80px;
-  background: white;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
 }
 
-/* Name */
-.xp-profile-name {
-  margin-top: 12px;
+/* Name + Username */
+.xp-name {
   font-size: 22px;
   font-weight: bold;
   color: #000080;
 }
 
-/* Username */
-.xp-profile-username {
-  color: #404040;
+.xp-username {
   font-size: 14px;
-  margin-bottom: 16px;
+  color: #444;
+  margin-top: -6px;
 }
 
-/* XP Button */
+/* XP BUTTON */
 .xp-btn {
   background: #ece9d8;
-  border: 2px solid #7b7b7b;
-  padding: 6px 20px;
+  border: 2px solid #7a7a7a;
+  padding: 5px 18px;
   border-radius: 4px;
-  color: black;
   font-size: 14px;
-  box-shadow: 2px 2px 0px #b1b1b1;
+  box-shadow: 2px 2px 0px #b0b0b0;
   cursor: pointer;
-  transition: 0.2s;
 }
 
 .xp-btn:active {
@@ -88,10 +61,10 @@
 }
 
 /* ===========================
-   XP TABS
+           XP TABS
 =========================== */
 .xp-tabs {
-  margin-top: 30px;
+  margin-top: 25px;
   border-bottom: 2px solid #7b7b7b !important;
 }
 
@@ -104,36 +77,30 @@
   margin: 0 4px;
   border-radius: 6px 6px 0 0;
   font-weight: 600;
-  box-shadow: inset 0 0 3px white;
 }
 
-/* Active Tab */
+/* Active tab */
 .xp-tab-link.active {
-  background: #ffffff !important;
+  background: white !important;
   border-bottom: 2px solid white !important;
-  font-weight: bold;
-  color: #000080 !important;
+  color: #002080 !important;
 }
 
 /* ===========================
-    MOBILE FIXES
+          MOBILE FIX
 =========================== */
 @media (max-width: 480px) {
-  .xp-profile-pic {
-    width: 110px;
-    height: 110px;
+  .xp-profile-photo {
+    width: 85px;
+    height: 85px;
   }
 
-  .xp-tab-link {
-    padding: 8px 12px;
-    font-size: 13px;
-  }
-
-  .xp-profile-name {
+  .xp-name {
     font-size: 18px;
   }
 
-  .xp-profile-card {
-    padding: 16px;
+  .xp-tab-link {
+    padding: 8px 10px;
+    font-size: 13px;
   }
 }
