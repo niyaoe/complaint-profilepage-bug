@@ -73,7 +73,7 @@ const Reports = () => {
   ];
 
   return (
-    <div className="retro-bg" style={{ minHeight: "100vh"}}>
+    <div className="retro-bg" style={{ minHeight: "100vh", paddingTop:"70px"}}>
       <div className="container py-4">
         {/* 🔍 Search & Filter Bar */}
         <div className="d-flex justify-content-between align-items-center mb-4 gap-2 retro-box p-2">

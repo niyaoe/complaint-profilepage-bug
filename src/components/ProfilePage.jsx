@@ -23,7 +23,7 @@ const ProfilePage = () => {
         <div className="ms-3">
           <h4 className="xp-name">Niyaoe</h4>
           <p className="xp-username">@niyaoe</p>
-          <button className="xp-btn">Edit Profile</button>
+          <button className="xp-btn-editprofile">Edit Profile</button>
         </div>
 
       </div>

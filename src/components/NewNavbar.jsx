@@ -29,7 +29,7 @@ const NewNavbar = () => {
               fontFamily: "Tahoma, sans-serif",
             }}
           >
-            🪟 Its Our Planet
+            JAREESHA.KOPP
           </Navbar.Brand>
 
           {/* Links */}

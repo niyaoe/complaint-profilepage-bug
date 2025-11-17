@@ -45,15 +45,33 @@
 }
 
 /* XP BUTTON */
-.xp-btn {
-  background: #ece9d8;
-  border: 2px solid #7a7a7a;
-  padding: 5px 18px;
-  border-radius: 4px;
+.xp-btn-editprofile {
+  /* Basic styling */
+  padding: 8px 16px;
+  border: 1px solid #0A246A; /* Dark blue border */
+  border-radius: 3px;
+  font-family: Tahoma, sans-serif;
   font-size: 14px;
-  box-shadow: 2px 2px 0px #b0b0b0;
+  color: #000;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); /* Light text shadow */
+  /* Gradient background (Luna Blue theme) */
+  background: linear-gradient(to bottom, #A6CAF0 0%, #76A9E4 50%, #4A83D0 100%);
+
+  /* Hover and Active states */
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
+.xp-btn-editprofile:hover {
+  background: linear-gradient(to bottom, #B9D3F3 0%, #8FBCE8 50%, #6399E0 100%);
+  border-color: #0A246A; /* Maintain border color on hover */
+}
+
+.xp-btn-editprofile:active {
+  background: linear-gradient(to bottom, #4A83D0 0%, #76A9E4 50%, #A6CAF0 100%); /* Inverted gradient for pressed state */
+  border-color: #0A246A;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); /* Inner shadow for pressed state */
+}
+
 
 .xp-btn:active {
   box-shadow: none;
