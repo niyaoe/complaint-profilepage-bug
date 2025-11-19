@@ -14,7 +14,7 @@ import MobileTopbar from "../components/MobileTopbar";
 const MainPage = () => {
   return (
     <div>
-      {/* <MobileTopbar/> */}
+      <MobileTopbar/>
       {/* <LoginNav/> */}
       <NewNavbar />
       <Part1 />

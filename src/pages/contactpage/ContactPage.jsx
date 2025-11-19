@@ -7,7 +7,7 @@ import MobileTopbar from '../../components/MobileTopbar'
 const ContactPage = () => {
   return (
     <div>
-      {/* <MobileTopbar/> */}
+      <MobileTopbar/>
         <NewNavbar/>
         <ContactForm/>
         {/* <Footer/> */}

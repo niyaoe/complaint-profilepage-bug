@@ -22,14 +22,14 @@ const NewNavbar = () => {
           {/* Brand */}
           <Navbar.Brand
             onClick={() => navigate("/mainpage")}
-            className="fw-bold fs-5"
+            className="fw-bold fs-3"
             style={{
               cursor: "pointer",
               color: "#000",
               fontFamily: "Tahoma, sans-serif",
             }}
           >
-            JAREESHA.KOPP
+            NexTown.in
           </Navbar.Brand>
 
           {/* Links */}
@@ -155,6 +155,7 @@ const NewNavbar = () => {
                 <i
                   className={`bi ${link.icon}`}
                   style={{
+                    
                     fontSize: "22px",
                     lineHeight: 1,
                   }}
@@ -170,7 +171,7 @@ const NewNavbar = () => {
           /* Active link XP-style glow */
           .nav-link.active {
             background: linear-gradient(180deg,#0a64ad 0%,#3a95e6 100%) !important;
-            color: #fff !important;
+            color: #FFF !important;
             border: 2px solid #003c74 !important;
             box-shadow: inset 1px 1px 0 #7fbfff !important;
           }

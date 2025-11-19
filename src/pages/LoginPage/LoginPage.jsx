@@ -26,7 +26,7 @@ const LoginPage = () => {
 
           {/* LEFT SIDE */}
           <div className="col-12 col-md-6 d-flex flex-column justify-content-center text-center p-4 xp-left-border">
-            <h1 className="display-5 fw-bold xp-title">Its Our Planet</h1>
+            <h1 className="display-5 fw-bold xp-title">NexTown.in</h1>
             <p className="mt-3 xp-text">
               Observe, Organize and Report.  
               Let’s make a difference together 🌍

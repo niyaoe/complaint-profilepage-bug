@@ -1,11 +1,13 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profileImg from "../assets/dp.png";
 
 import "../styles/ProfilePageXP.css"; // XP THEME CSS
 
 const ProfilePage = () => {
+
+  const navigate = useNavigate()
   return (
     <div className="xp-wrapper">
 
@@ -21,9 +23,9 @@ const ProfilePage = () => {
 
         {/* Name + Username */}
         <div className="ms-3">
-          <h4 className="xp-name">Niyaoe</h4>
+          <h4 className="xp-name">Niyas PT</h4>
           <p className="xp-username">@niyaoe</p>
-          <button className="xp-btn-editprofile">Edit Profile</button>
+          <button onClick={()=>{navigate('/settings/account')}} className="xp-btn-editprofile">Edit Profile</button>
         </div>
 
       </div>

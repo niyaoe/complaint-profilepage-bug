@@ -7,7 +7,7 @@ import MobileTopbar from '../components/MobileTopbar'
 const MyReportPage = () => {
   return (
     <div>
-      {/* <MobileTopbar/> */}
+      <MobileTopbar/>
         <NewNavbar/>
         <MyReport/>
         {/* <Footer/> */}
