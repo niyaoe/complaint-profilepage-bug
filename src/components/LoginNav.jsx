@@ -13,7 +13,7 @@ const LoginNav = () => {
         className="d-flex justify-content-between align-items-center px-3"
       >
         {/* Brand */}
-        <Navbar.Brand className="xp-login-brand">
+        <Navbar.Brand className="xp-login-brand font-bold fs-3">
           NexTown.in
         </Navbar.Brand>
 

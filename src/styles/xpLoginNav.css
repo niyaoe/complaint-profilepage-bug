@@ -8,6 +8,7 @@
     border-bottom: 2px solid #808080;
     box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #808080;
     padding: 6px 0;
+    
     font-family: "Tahoma", sans-serif;
   }
   
@@ -15,14 +16,13 @@
   .xp-login-brand {
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     color: #000 !important;
     text-shadow: 1px 1px #fff;
   }
   
   /* XP Button Shared Style */
-  .xp-login-btn,
-  .xp-signup-btn {
+  .xp-login-btn{
     background: #d4d0c8 !important;
     color: #000 !important;
     border: 2px solid #808080 !important;
@@ -32,11 +32,30 @@
     font-family: "Tahoma", sans-serif;
     padding: 4px 15px;
   }
+  .xp-signup-btn {
+    /* background: #d4d0c8 !important; */
+    /* color: #000 !important; */
+    /* border: 2px solid #808080 !important; */
+    /* border-right-color: #fff !important; */
+    /* border-bottom-color: #fff !important; */
+    /* box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #808080; */
+    font-family: "Tahoma", sans-serif;
+    padding: 4px 15px;
+
+
+    background: linear-gradient(180deg,#ad0a0a 0%,#e63a3a 100%) !important;
+    color: #FFF !important;
+    border: 2px solid #740000 !important;
+    box-shadow: inset 1px 1px 0 #ff7f7f !important;
+  }
   
   /* On hover (XP Pressed Button Effect) */
-  .xp-login-btn:hover,
-  .xp-signup-btn:hover {
+  .xp-login-btn:hover{
     background: #c8c3b5 !important;
+  }
+  .xp-signup-btn:hover {
+    background: linear-gradient(180deg, #e63a3a 0%, #ad0a0a 100%) !important;
+    
   }
   
   /* On click */

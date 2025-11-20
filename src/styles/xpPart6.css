@@ -25,6 +25,8 @@
   border-radius: 4px;
   box-shadow: 3px 3px 0 #8faee9;
   max-height: 380px;
+  width: 200px;
+  /* max-width: 400px; */
   object-fit: cover;
   transform: rotate(90deg);
 }
