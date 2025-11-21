@@ -13,10 +13,10 @@ const MobileTopbar = () => {
       <Container fluid className="d-flex justify-content-between align-items-center px-0">
 
         {/* Left side XP Title */}
-        <Navbar.Brand className="mobile-xp-title m-0 fs-5">
+        <Navbar.Brand className="mobile-xp-title fw-bold m-0 fs-5">
         NexTown.in
         </Navbar.Brand>
-
+ 
         {/* Right side XP Icon */}
         <NavLink to="/settings" className="mobile-xp-icon-link">
           <Gear size={25} className="mobile-xp-icon" />
