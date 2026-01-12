@@ -3,9 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useNavigate } from "react-router-dom";
 import "../../styles/LoginRetroXP.css"; // ⭐ XP CSS
+import axios from "axios";
 
 const SignUp = () => {
-  const [FullName, setFullName] = useState("");
+  const [Name, setFullName] = useState("");
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const [ConfirmPassword, setConfirmPassword] = useState("");
@@ -17,14 +18,21 @@ const SignUp = () => {
   const PasswordChange = (e) => setPassword(e.target.value);
   const ConfirmPasswordChange = (e) => setConfirmPassword(e.target.value);
 
-  const SubmitChange = (e) => {
+  const SubmitChange = async (e) => {
     e.preventDefault();
-
-    // Example basic validation (keep or remove – your choice)
     if (Password !== ConfirmPassword) {
       alert("Passwords do not match!");
       return;
     }
+    const response = await axios.post("http://localhost:5005/auth/register",{Name,Email,Password})
+
+    if (response.status === 200){
+      navigate("/login")
+    }
+    
+
+    // Example basic validation (keep or remove – your choice)
+    
 
     
     
@@ -54,7 +62,7 @@ const SignUp = () => {
               <div className="mb-3">
                 <label className="form-label xp-label">Full Name</label>
                 <input
-                  value={FullName}
+                  value={Name}
                   onChange={FullNameChange}
                   type="text"
                   className="form-control xp-input"

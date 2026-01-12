@@ -22,6 +22,7 @@ import NotificationSettings from "./components/NotificationSettings";
 import PrivacySecurity from "./components/PrivacySecurity";
 import AppPreferences from "./components/AppPreferences";
 import SignUp from "./pages/SignUp/SignUp";
+import UseContext from "./useContext";
 
 function App() {
   const [MainLogin, setMainLogin] = useState(false);
@@ -31,6 +32,7 @@ function App() {
         <Routes>
           <Route path="/" element={<BeforeLoginPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/l" element={<UseContext/>} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/reports" element={<ReportsPage />} />
           <Route path="/contact" element={<ContactPage />} />

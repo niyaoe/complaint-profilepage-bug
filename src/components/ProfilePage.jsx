@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profileImg from "../assets/dp.png";
 
 import "../styles/ProfilePageXP.css"; // XP THEME CSS
+import { newContext } from "../useContext";
 
 const ProfilePage = () => {
 
+  const Id = useContext(newContext)
+  const { uniqId } = Id
+
+  console.log(uniqId);
+  
   const navigate = useNavigate()
+
+
   return (
     <div className="xp-wrapper">
 

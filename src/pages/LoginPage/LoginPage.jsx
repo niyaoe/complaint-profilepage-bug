@@ -1,22 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useNavigate } from "react-router-dom";
 import "../../styles/LoginRetroXP.css";  // ⭐ XP CSS
+import axios from "axios";
 
 const LoginPage = () => {
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
+  const [userId, setuserId] = useState("")
   const navigate = useNavigate();
 
   const EmailChange = (e) => setEmail(e.target.value);
   const PasswordChange = (e) => setPassword(e.target.value);
 
-  const SubmitChange = (e) => {
+  const SubmitChange = async (e) => {
     e.preventDefault();
-    if (Email === "niyas4334@gmail.com" && Password === " ") {
+    const response = await axios.post("http://localhost:5005/auth/login",{Email,Password})
+    console.log(response.data._Id);
+    setuserId(response.data._Id)
+
+    
+    localStorage.setItem("uniqid",JSON.stringify(userId))
+      
+ 
+
+  
+    
+
+  
+
+    
+    if (response.status === 200) {
       navigate("/mainpage");
     }
+
   };
 
   return (
