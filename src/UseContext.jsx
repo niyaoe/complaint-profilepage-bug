@@ -4,17 +4,17 @@ const newContext = createContext()
 
 const UseContext = ({children}) => {
 
-    const [uniqId, setuniqId] = useState({}) 
+    const [userData, setuserData] = useState({}) 
 
     useEffect(() => {
-     var uniqId = JSON.parse(localStorage.getItem("uniqid"))
-     setuniqId(uniqId)
+     var udata = JSON.parse(localStorage.getItem("userdata"))
+     setuserData(udata)
     }, [])
     
     
   return (
     <div>
-        <newContext.Provider value={uniqId}>
+        <newContext.Provider value={{userData}}  >
         {children}
         </newContext.Provider>
     </div>

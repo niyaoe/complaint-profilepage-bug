@@ -8,7 +8,8 @@ import axios from "axios";
 const LoginPage = () => {
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
-  const [userId, setuserId] = useState("")
+  // const [userId, setuserId] = useState(null)
+  
   const navigate = useNavigate();
 
   const EmailChange = (e) => setEmail(e.target.value);
@@ -17,20 +18,16 @@ const LoginPage = () => {
   const SubmitChange = async (e) => {
     e.preventDefault();
     const response = await axios.post("http://localhost:5005/auth/login",{Email,Password})
-    console.log(response.data._Id);
-    setuserId(response.data._Id)
-
+    console.log(response.data.user);
     
-    localStorage.setItem("uniqid",JSON.stringify(userId))
-      
- 
-
-  
     
+    const userData = response.data.user
 
-  
-
+      localStorage.setItem("userdata",JSON.stringify(userData))
+     
     
+    
+   
     if (response.status === 200) {
       navigate("/mainpage");
     }
