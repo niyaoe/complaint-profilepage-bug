@@ -42,7 +42,7 @@ const ProfilePage = () => {
         {/* Name + Username */}
         <div className="ms-3">
           <h4 className="xp-name">{Name}</h4>
-          <p className="xp-username">@niyaoe</p>
+          <p className="xp-username">@{Name}</p>
           <button
             onClick={() => {
               navigate("/settings/account");

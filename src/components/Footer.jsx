@@ -9,7 +9,7 @@ function Footer() {
         <div className="row">
 
           <div className="col-md-4 mb-3 align-content-center xp-footer-title-box">
-            <h5 className="fw-bold xp-footer-title">Its Our Planet</h5>
+            <h5 className="fw-bold xp-footer-title">NexTown.in</h5>
           </div>
 
           <div className="col-6 col-md-2 mb-3 xp-footer-section">
@@ -35,7 +35,7 @@ function Footer() {
           <hr className="xp-footer-divider" />
 
           <p className="small mt-3 xp-footer-copy">
-            &copy; 2025 Its Our Planet. All rights reserved.
+            &copy; 2025 NexTown.in  All rights reserved.
           </p>
 
         </div>
